@@ -16,6 +16,10 @@
 }
 
 
+/* ==================================================
+   RESET
+================================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -76,6 +80,7 @@ section {
     display: flex;
 
     align-items: center;
+
     justify-content: space-between;
 
     padding: 22px 5%;
@@ -137,9 +142,11 @@ section {
     position: absolute;
 
     left: 0;
+
     bottom: -7px;
 
     width: 0;
+
     height: 1px;
 
     background: var(--accent);
@@ -158,16 +165,18 @@ section {
 }
 
 
-/* LOCK */
+/* Lock icon */
 
 .navbar nav .lock-link {
 
     width: 34px;
+
     height: 34px;
 
     display: flex;
 
     align-items: center;
+
     justify-content: center;
 
     border: 1px solid rgba(255, 255, 255, 0.22);
@@ -194,7 +203,7 @@ section {
 
 
 /* ==================================================
-   HOME / HERO
+   HERO
 ================================================== */
 
 .hero {
@@ -332,6 +341,7 @@ section {
     display: inline-flex;
 
     align-items: center;
+
     justify-content: center;
 
     min-height: 50px;
@@ -349,7 +359,6 @@ section {
 
 
 .btn:hover {
-
     transform: translateY(-3px);
 }
 
@@ -363,7 +372,6 @@ section {
 
 
 .btn.primary:hover {
-
     background: var(--accent);
 }
 
@@ -373,6 +381,7 @@ section {
     display: inline-flex;
 
     align-items: center;
+
     justify-content: center;
 
     min-height: 48px;
@@ -404,7 +413,7 @@ section {
 
 
 /* ==================================================
-   GENERAL SECTIONS
+   GENERAL
 ================================================== */
 
 .section {
@@ -459,15 +468,15 @@ section {
 }
 
 
-/* SMALL PROFILE IMAGE */
+/* SMALL IMAGE */
 
 .about-image {
 
     width: 250px;
 
-    border-radius: 8px;
-
     overflow: hidden;
+
+    border-radius: 8px;
 
     border: 1px solid var(--line);
 
@@ -580,7 +589,7 @@ section {
 }
 
 
-.academic-layout {
+.academic-grid {
 
     display: grid;
 
@@ -592,15 +601,15 @@ section {
 }
 
 
-/* SMALL ACADEMIC IMAGE */
+/* SMALL IMAGE */
 
 .academic-image {
 
     width: 260px;
 
-    border-radius: 8px;
-
     overflow: hidden;
+
+    border-radius: 8px;
 
     border: 1px solid var(--line);
 
@@ -728,7 +737,6 @@ section {
 ================================================== */
 
 .projects-section {
-
     background: #081521;
 }
 
@@ -745,15 +753,15 @@ section {
 }
 
 
-/* SMALL PROJECT IMAGE */
+/* SMALL IMAGE */
 
 .project-image {
 
     width: 270px;
 
-    border-radius: 8px;
-
     overflow: hidden;
+
+    border-radius: 8px;
 
     border: 1px solid var(--line);
 
@@ -801,7 +809,6 @@ section {
 
 
 .projects-content .outline-btn {
-
     margin-top: 30px;
 }
 
@@ -829,7 +836,6 @@ section {
 
 
 .contact-content {
-
     max-width: 700px;
 }
 
@@ -863,7 +869,7 @@ section {
 }
 
 
-/* ICONS */
+/* ICONS ONLY */
 
 .contact-links {
 
@@ -884,6 +890,7 @@ section {
     display: flex;
 
     align-items: center;
+
     justify-content: center;
 
     border: 1px solid rgba(255, 255, 255, 0.20);
@@ -910,7 +917,7 @@ section {
 }
 
 
-/* SMALL ROUND CONTACT IMAGE */
+/* SMALL ROUND IMAGE */
 
 .contact-photo {
 
@@ -973,7 +980,7 @@ footer {
 @media (max-width: 900px) {
 
     .about-grid,
-    .academic-layout,
+    .academic-grid,
     .projects-grid {
 
         grid-template-columns: 1fr;
@@ -1005,13 +1012,11 @@ footer {
 @media (max-width: 700px) {
 
     .navbar {
-
         padding: 18px 5%;
     }
 
 
     .navbar nav {
-
         display: none;
     }
 
@@ -1027,7 +1032,6 @@ footer {
 
 
     .hero {
-
         background-position: center;
     }
 
@@ -1059,7 +1063,6 @@ footer {
 
 
     .section-label {
-
         margin-bottom: 40px;
     }
 
